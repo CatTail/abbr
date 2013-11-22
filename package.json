@@ -1,0 +1,28 @@
+{
+  "name": "abbr",
+  "version": "0.0.1",
+  "description": "Common variable name abbreviation conversion",
+  "keywords": [
+    "abbreviation",
+    "conversion"
+  ],
+  "author": "CatTail",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/CatTail/abbr.git"
+  },
+  "bugs": {
+    "url": "https://github.com/CatTail/abbr/issues"
+  },
+  "dependencies": {
+    "commander": "~2.1.0",
+    "wiki-dict": "0.0.1",
+    "colors": "~0.6.2"
+  },
+  "main": "index.js",
+  "bin": {
+    "abbr": "./bin/cli.js"
+  },
+  "preferGlobal": true,
+  "license": "MIT"
+}
