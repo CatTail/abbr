@@ -54,7 +54,7 @@ var search = function(name, options) {
 };
 
 
-var create = function () {
+var create = function (name) {
   open('https://github.com/CatTail/abbr/wiki/Dictionary/_edit');
 };
 
