@@ -1,6 +1,6 @@
 {
   "name": "abbr",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Common variable name abbreviation conversion",
   "keywords": [
     "abbreviation",
@@ -17,7 +17,8 @@
   "dependencies": {
     "commander": "~2.1.0",
     "wiki-dict": "0.0.1",
-    "colors": "~0.6.2"
+    "colors": "~0.6.2",
+    "open": "0.0.4"
   },
   "main": "index.js",
   "bin": {

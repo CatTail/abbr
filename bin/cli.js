@@ -6,6 +6,7 @@
 
 var colors = require('colors');
 var wiki = require('wiki-dict');
+var open = require('open');
 var program = require('commander');
 
 var fuzzySearch = function (name, dict) {
@@ -53,6 +54,11 @@ var search = function(name, options) {
 };
 
 
+var create = function () {
+  open('https://github.com/CatTail/abbr/wiki/Dictionary/_edit');
+};
+
+
 /* 
  * CLI
  */
@@ -66,6 +72,11 @@ program
   .description('Search for name abbreviation')
   .option('-E --exact', 'Exact match for variable name')
   .action(search);
+
+program
+  .command('create')
+  .description('Create a new abbreviation')
+  .action(create);
 
 program.parse(process.argv);
 
