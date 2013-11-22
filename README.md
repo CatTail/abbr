@@ -1,4 +1,5 @@
-abbr
-====
+## Installation
 
-Common variable name abbreviation conversion
+  With [node](http://nodejs.org) previously installed:
+
+     $ npm install -g abbr
