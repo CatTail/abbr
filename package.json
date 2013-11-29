@@ -22,7 +22,7 @@
   },
   "main": "index.js",
   "bin": {
-    "abbr": "./bin/abbr.js"
+    "abbr": "./bin/abbr"
   },
   "preferGlobal": true,
   "license": "MIT"

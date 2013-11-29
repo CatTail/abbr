@@ -1,1 +1,1 @@
-require('./bin/cli');
+require('./bin/abbr');
